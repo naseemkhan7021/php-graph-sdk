@@ -1,42 +1,45 @@
 {
-    "name": "facebook_forked/graph-sdk",
-    "description": "Facebook SDK for PHP",
-    "keywords": ["facebook", "sdk"],
-    "type": "library",
-    "homepage": "https://github.com/facebook/php-graph-sdk",
-    "license": "Facebook Platform",
-    "authors": [
-        {
-            "name": "Facebook",
-            "homepage": "https://github.com/facebook/php-graph-sdk/contributors"
-        }
-    ],
-    "require": {
-        "php": "^5.4|^7.0|^8.0"
+  "name": "pyjcoder/php-graph-sdk",
+  "description": "Facebook SDK for PHP Modified for PHP 8.1",
+  "keywords": [
+    "facebook",
+    "sdk"
+  ],
+  "type": "library",
+  "homepage": "https://github.com/einhaus/einhaus/php-graph-sdk",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Facebook",
+      "homepage": "https://github.com/facebook/php-graph-sdk/contributors"
     },
-    "require-dev": {
-        "phpunit/phpunit": "~4.0",
-        "mockery/mockery": "~0.8",
-        "guzzlehttp/guzzle": "~5.0"
-    },
-    "suggest": {
-        "paragonie/random_compat": "Provides a better CSPRNG option in PHP 5",
-        "guzzlehttp/guzzle": "Allows for implementation of the Guzzle HTTP client"
-    },
-    "autoload": {
-        "psr-4": {
-            "Facebook\\": "src/Facebook/"
-        },
-        "files": ["src/Facebook/polyfills.php"]
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Facebook\\Tests\\": "tests/"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "5.x-dev"
-        }
+    {
+      "name": "pyjcoder""
     }
+  ],
+  "require": {
+    "php": "^8.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "mockery/mockery": "~0.8",
+    "guzzlehttp/guzzle": "~5.0"
+  },
+  "suggest": {
+    "paragonie/random_compat": "Provides a better CSPRNG option in PHP 5",
+    "guzzlehttp/guzzle": "Allows for implementation of the Guzzle HTTP client"
+  },
+  "autoload": {
+    "psr-4": {
+      "Facebook\\": "src/Facebook/"
+    },
+    "files": [
+      "src/Facebook/polyfills.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Facebook\\Tests\\": "tests/"
+    }
+  }
 }
