@@ -4,6 +4,8 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/facebook/php-graph-sdk/badges/quality-score.png?b=5.x)](https://scrutinizer-ci.com/g/facebook/php-graph-sdk/?branch=5.x)
 [![Latest Stable Version](http://img.shields.io/badge/Latest%20Stable-5.7.0-blue.svg)](https://packagist.org/packages/facebook/graph-sdk)
 
+Modified version of the Facebok SDK v5 for PHP 8.1 compatability.
+
 This repository contains the open source PHP SDK that allows you to access the Facebook Platform from your PHP app.
 
 ## Installation
