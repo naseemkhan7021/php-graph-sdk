@@ -6,7 +6,7 @@
     "sdk"
   ],
   "type": "library",
-  "homepage": "https://github.com/einhaus/einhaus/php-graph-sdk",
+  "homepage": "https://github.com/pyjcoder/pyjcoder/php-graph-sdk",
   "license": "Apache-2.0",
   "authors": [
     {
